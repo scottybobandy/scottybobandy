@@ -4,11 +4,9 @@ import Home from "./Home";
 
 export default class App extends Component {
     render() {
-        const home = <Home/>
-
         return (
             <div>
-                <Route exact path='/' render={(props) => home}/>
+                <Route exact path='/' render={(props) => <Home/>}/>
             </div>
         );
     }
