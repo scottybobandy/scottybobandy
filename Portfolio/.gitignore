@@ -1,0 +1,10 @@
+# Firebase
+.firebase/
+
+# Mac
+.DS_Store
+.idea
+
+# NPM
+node_modules/
+npm-debug.log*
