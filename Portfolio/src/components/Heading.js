@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
-
 import Icon from 'react-fontawesome';
 
 export default class Heading extends Component {

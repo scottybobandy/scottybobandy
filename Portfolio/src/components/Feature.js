@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
-
 import Media from "./Media";
 
 export default class Feature extends Component {

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
-import Home from "./Home";
+import FeatureList from "./FeatureList";
 
 export default class App extends Component {
     render() {
         return (
             <div>
-                <Route exact path='/' render={(props) => <Home/>}/>
+                <Route exact path='/' render={(props) => <FeatureList/>}/>
             </div>
         );
     }

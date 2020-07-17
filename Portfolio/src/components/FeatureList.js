@@ -1,14 +1,12 @@
 import React, { Component } from "react";
 import { Grid, Row, Col } from "react-bootstrap";
-
 import Feature from "./Feature";
 import Heading from "./Heading";
+import FeatureStore from "../stores/FeatureStore";
 
-import features from "../stores/Store";
-
-export default class Marketing extends Component {
+export default class FeatureList extends Component {
     render() {
-        const components = features.map((feature, index) => {
+        const features = FeatureStore.map((feature, index) => {
             return <Feature id={index} feature={feature}/>   
         });
 
@@ -17,7 +15,7 @@ export default class Marketing extends Component {
                 <Row>
                     <Col xs={10} xsOffset={1} sm={8} smOffset={2} md={6} mdOffset={3}>
                         <Heading/>
-                        {components}
+                        { features }
                     </Col>
                 </Row>
             </Grid>

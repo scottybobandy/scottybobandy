@@ -22,7 +22,7 @@ module.exports = [
     {
         "image": dotconfirmed,
         "title": "Dot Confirmed",
-        "position": "Co-founder + Developer",
+        "position": "Co-creator + Developer",
         "subtitle": "Buy and sell preloved clothing from hundreds of your favourite brands.",
         "link": "http://dotconfirmed.com"
     },
