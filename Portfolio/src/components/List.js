@@ -1,21 +1,21 @@
 import React, { Component } from "react";
 import { Grid, Row, Col } from "react-bootstrap";
-import Feature from "./Feature";
-import Heading from "./Heading";
-import FeatureStore from "../stores/FeatureStore";
+import Card from "./Card";
+import Header from "./Header";
+import DataStore from "../stores/DataStore";
 
-export default class FeatureList extends Component {
+export default class List extends Component {
     render() {
-        const features = FeatureStore.map((feature, index) => {
-            return <Feature id={index} feature={feature}/>   
+        const cards = DataStore.map((experience, index) => {
+            return <Card id={index} experience={experience}/>   
         });
 
         return (
             <Grid style={{marginBottom: "3em"}}>
                 <Row>
                     <Col xs={10} xsOffset={1} sm={8} smOffset={2} md={6} mdOffset={3}>
-                        <Heading/>
-                        { features }
+                        <Header/>
+                        {cards}
                     </Col>
                 </Row>
             </Grid>
