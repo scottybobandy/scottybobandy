@@ -1,4 +1,11 @@
 .card {
+    background-color: $surface;
+    border: 0.25px solid $border;
     margin-bottom: 1em;
-    border: 0.25px solid $grey-dark;
+}
+
+a:hover {
+    .card {
+        background-color: $highlight;
+    }
 }
