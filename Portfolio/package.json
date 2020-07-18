@@ -1,6 +1,6 @@
 {
   "name": "scott.website",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "private": true,
   "dependencies": {
     "react": "^15.4.2",
@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
-    "node-sass": "^4.5.0",
+    "node-sass": "^4.14.1",
     "npm-run-all": "^4.0.2",
     "react-scripts": "0.9.5"
   },

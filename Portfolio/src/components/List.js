@@ -7,7 +7,7 @@ import DataStore from "../stores/DataStore";
 export default class List extends Component {
     render() {
         const cards = DataStore.map((experience, index) => {
-            return <Card id={index} experience={experience}/>   
+            return <Card key={index} experience={experience}/>   
         });
 
         return (
