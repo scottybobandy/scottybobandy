@@ -15,14 +15,14 @@ module.exports = [
     {
         "image": gauntlet,
         "title": "Gauntlet",
-        "position": "Co-creator + Developer",
+        "position": "Co-creator",
         "subtitle": "Track your games, decks, and opponents for Magic: The Gathering®.",
         "link": "https://gauntletapp.com"
     },
     {
         "image": dotconfirmed,
         "title": "Dot Confirmed",
-        "position": "Co-creator + Developer",
+        "position": "Co-creator",
         "subtitle": "Buy and sell preloved clothing from hundreds of your favourite brands.",
         "link": "http://dotconfirmed.com"
     },
