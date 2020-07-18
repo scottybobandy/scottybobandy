@@ -4,7 +4,7 @@ import gauntlet from "../img/gauntlet.png";
 import shopify from "../img/shopify.png";
 import vivametrica from "../img/vivametrica.png";
 
-module.exports = [
+export default [
     {
         "image": shopify,
         "title": "Shopify",

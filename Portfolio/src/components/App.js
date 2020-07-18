@@ -6,7 +6,7 @@ export default class App extends Component {
     render() {
         return (
             <div>
-                <Route exact path='/' render={(props) => <List/>}/>
+                <Route exact path='/' component={List}/>
             </div>
         );
     }
