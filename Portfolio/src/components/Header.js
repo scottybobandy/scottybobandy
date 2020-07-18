@@ -9,9 +9,15 @@ export default function Header() {
                 <h2 style={{ marginTop: "2em", marginBottom: "12px" }}>
                     Scott Campbell
                 </h2>
-                <a href="https://www.linkedin.com/in/scott-dot-confirmed/"><Icon style={{ marginRight: "20px" }} name='linkedin-square' size='2x'/></a>
-                <a href="https://github.com/Campbell-Scott"><Icon style={{ marginRight: "20px" }} name='github' size='2x'/></a>
-                <a href="https://twitter.com/scottybobandy"><Icon style={{ marginRight: "20px" }} name='twitter' size='2x'/></a>
+                <a href="https://www.linkedin.com/in/scott-dot-confirmed/">
+                    <Icon style={{ marginRight: "20px" }} name='linkedin-square' size='2x'/>
+                </a>
+                <a href="https://github.com/Campbell-Scott">
+                    <Icon style={{ marginRight: "20px" }} name='github' size='2x'/>
+                </a>
+                <a href="https://twitter.com/scottybobandy">
+                    <Icon style={{ marginRight: "20px" }} name='twitter' size='2x'/>
+                </a>
                 <p style={{ marginTop: "2em", marginBottom: "1em" }}>
                     I'm a software developer living in Ottawa, Canada.
                 </p>

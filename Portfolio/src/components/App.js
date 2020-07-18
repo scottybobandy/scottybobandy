@@ -1,13 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import { Route } from "react-router-dom";
-import List from "./List";
+import Home from "./Home";
 
-export default class App extends Component {
-    render() {
-        return (
-            <div>
-                <Route exact path='/' component={ List }/>
-            </div>
-        );
-    }
+export default function App() {
+    return (
+        <div>
+            <Route exact path='/' component={ Home }/>
+        </div>
+    );
 }
