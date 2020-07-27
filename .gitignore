@@ -1,2 +1,15 @@
+# Firebase
+.firebaserc
+.firebase/
+firebase.json
+
 # Mac
 .DS_Store
+
+# NPM
+build/
+node_modules/
+npm-debug.log*
+
+# Visual Studio Code
+.idea
