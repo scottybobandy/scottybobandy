@@ -9,7 +9,7 @@ export default function Header() {
                 <h2 style={{ marginTop: "2em", marginBottom: "12px" }}>
                     Scott Campbell
                 </h2>
-                <a href="https://www.linkedin.com/in/scott-dot-confirmed/">
+                <a href="https://www.linkedin.com/in/scottaustencampbell/">
                     <Icon style={{ marginRight: "20px" }} name='linkedin-square' size='2x'/>
                 </a>
                 <a href="https://github.com/Campbell-Scott">
