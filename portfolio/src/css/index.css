@@ -7162,6 +7162,22 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.board h5 {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em; }
+
+.board p {
+  margin-bottom: 4em; }
+
+.deck {
+  border-radius: 4px;
+  background-color: red;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1.1em;
+  background-color: whitesmoke;
+  border: 0.25px dashed rgba(47, 79, 79, 0.33); }
+
 body {
   background-color: whitesmoke;
   line-height: 1.2em;
@@ -7172,9 +7188,17 @@ body {
   border: 0.25px solid rgba(47, 79, 79, 0.33);
   margin-bottom: 1em; }
 
-a:hover .card {
-  background-color: rgba(47, 79, 79, 0.05); }
-
-a, a:hover {
+.card-link, .card-link:hover {
   color: inherit;
   text-decoration: none; }
+
+.card-link:hover .card {
+  background-color: rgba(47, 79, 79, 0.05); }
+
+a {
+  color: inherit;
+  text-decoration: underline; }
+
+a:hover {
+  color: black;
+  text-decoration: underline; }

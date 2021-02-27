@@ -22,7 +22,7 @@ export default function Header() {
                     I'm a software developer living in Ottawa, Canada.
                 </p>
                 <p style={{ marginBottom: "1em" }}>
-                    I spend my days building digital products and living an active lifestyle. I'm an avid reader, Magic: The Gathering® player, and craft beer enthusiast.
+                    I spend my days building digital products and living an active lifestyle. I'm an avid reader, <a href="/decks">Magic: The Gathering® player</a>, and craft beer enthusiast.
                 </p>
                 <p style={{ marginBottom: "2em" }}>
                     Here's the work I'm most proud of:

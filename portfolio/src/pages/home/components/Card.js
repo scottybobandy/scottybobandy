@@ -7,7 +7,7 @@ export default function Card(props) {
     const { image, title, subtitle, description, url } = experience;
 
     return (
-        <a href={ url }>
+        <a className="card-link" href={ url }>
             <Row className="card">
                 <Col xs={{ span: 10, offset: 1 }} md={{ span: 8, offset: 2 }}>
                     <Media image={ image } title={ title } subtitle={ subtitle }/>
