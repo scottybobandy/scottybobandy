@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Card from "./Card";
 import Header from "./Header";
-import DataStore from "../stores/DataStore";
+import DataStore from "../stores/HomeDataStore";
 
 export default function Home() {
     return (

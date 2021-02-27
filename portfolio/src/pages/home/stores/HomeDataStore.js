@@ -8,7 +8,7 @@ export default [
     {
         "image": shopify,
         "title": "Shopify",
-        "subtitle": "iOS Developer",
+        "subtitle": "Senior iOS Developer",
         "description": "Building the foundational components that support all of mobile @ Shopify.",
         "url": "https://www.shopify.com"
     },
