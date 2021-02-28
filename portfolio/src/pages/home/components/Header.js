@@ -19,13 +19,10 @@ export default function Header() {
                     <Icon style={{ marginRight: "20px" }} name='twitter' size='2x'/>
                 </a>
                 <p style={{ marginTop: "2em", marginBottom: "1em" }}>
-                    I'm a software developer living in Ottawa, Canada.
-                </p>
-                <p style={{ marginBottom: "1em" }}>
-                    I spend my days building digital products and living an active lifestyle. I'm an avid reader, <a href="/decks">Magic: The Gathering® player</a>, and craft beer enthusiast.
+                    I'm a software developer living in Ottawa, Canada with my partner and our cat Ozymandias.
                 </p>
                 <p style={{ marginBottom: "2em" }}>
-                    Here's the work I'm most proud of:
+                    I spend my days building digital products and living an active lifestyle. I'm an avid reader, Magic: The Gathering <a href="/decks">signed card collector</a>, and craft beer enthusiast.
                 </p>
             </Col>
         </Row>

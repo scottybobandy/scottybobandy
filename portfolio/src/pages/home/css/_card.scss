@@ -1,15 +1,24 @@
 .card {
     background-color: $surface;
     border: 0.25px solid $border;
+    margin-bottom: 0.66em;
 }
 
-.card-link, .card-link:hover {
+.card-container, .card-container:hover {
     color: inherit;
     text-decoration: none;
 }
 
-.card-link:hover {
+.card-container:hover {
     .card {
         background-color: $highlight;
     }
+    .card-link {
+        color: $link;
+        text-decoration: underline;
+    }
+}
+
+.card-link {
+    text-decoration: underline;
 }

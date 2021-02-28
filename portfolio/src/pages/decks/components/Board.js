@@ -2,14 +2,12 @@ import React from "react";
 import { Col } from "react-bootstrap";
 import Cards from "./Cards";
 
-Object.defineProperty(Array.prototype, 'chunk', {
-    value: function(chunkSize) {
-      var R = [];
-      for (var i = 0; i < this.length; i += chunkSize)
-        R.push(this.slice(i, i + chunkSize));
-      return R;
-    }
-});
+function chunkCards(cards, size) {
+    var slices = [];
+    for (var i = 0; i < cards.length; i += size)
+        slices.push(cards.slice(i, i + size));
+    return slices;
+}
 
 export default function Board(props) {
     const { board } = props;
@@ -19,7 +17,7 @@ export default function Board(props) {
         <Col className="board" xs={ 12 } style={{ padding: "0" }}>
             <h6 style={{ textAlign: "center" }}>{ name } ({cards.length})</h6>
             {
-                cards.chunk(4).map((cards, key) => {
+                chunkCards(cards, 4).map((cards, key) => {
                     return <Cards key={ key } cards={ cards }/>
                 })
             }

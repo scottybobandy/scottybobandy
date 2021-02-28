@@ -4,7 +4,7 @@
 }
 
 .nav-pills .nav-link:hover {
-    color: black;
+    color: $link;
     border: 0.25px solid $surface;
 }
 
@@ -12,4 +12,8 @@
     color: black;
     background-color: $highlight;
     border: 0.25px solid $border;
+}
+
+.nav-pills .nav-link.active:hover {
+    color: $link;
 }

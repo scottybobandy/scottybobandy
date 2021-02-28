@@ -1,43 +1,32 @@
-import dotconfirmed from "../img/dotconfirmed.png";
-import eidelberg from "../img/eidelberg.png";
-import gauntlet from "../img/gauntlet.png";
-import shopify from "../img/shopify.png";
-import vivametrica from "../img/vivametrica.png";
-
 export default [
     {
-        "image": shopify,
-        "title": "Shopify",
-        "subtitle": "Senior iOS Developer",
-        "description": "Building the foundational components that support all of mobile @ Shopify.",
+        "role": "Senior iOS Developer",
+        "place": "Shopify",
+        "timeframe": "February 2021 @ ",
         "url": "https://www.shopify.com"
     },
     {
-        "image": gauntlet,
-        "title": "Gauntlet",
-        "subtitle": "Co-creator",
-        "description": "Track your games, decks, and opponents for Magic: The Gathering®.",
+        "role": "Co-creator & Developer",
+        "place": "Gauntlet",
+        "timeframe": "February 2019 @ ",
         "url": "https://gauntletapp.com"
     },
     {
-        "image": dotconfirmed,
-        "title": "Dot Confirmed",
-        "subtitle": "Co-creator",
-        "description": "Buy and sell preloved clothing from hundreds of your favourite brands.",
+        "role": "iOS Developer",
+        "place": "Shopify",
+        "timeframe": "July 2018 @ ",
+        "url": "https://gauntletapp.com"
+    },
+    {
+        "role": "iOS Developer",
+        "place": "Vivametrica",
+        "timeframe": "January 2018 @ ",
+        "url": "https://www.vivametrica.com/"
+    },
+    {
+        "role": "Co-creator & Developer",
+        "place": "Dot Confirmed",
+        "timeframe": "September 2016 @ ",
         "url": "http://dotconfirmed.com"
-    },
-    {
-        "image": vivametrica,
-        "title": "Vivametrica",
-        "subtitle": "iOS Developer",
-        "description": "Use your smartphone to assess your mortality and risk of critical illness.",
-        "url": "https://www.vivametrica.com"
-    },
-    {
-        "image": eidelberg,
-        "title": "Eidelberg & Lee",
-        "subtitle": "Software Developer",
-        "description": "Discover thousands of Calgary based beauty experts on the move.",
-        "url": "https://eidelberglee.com"
     }
 ]

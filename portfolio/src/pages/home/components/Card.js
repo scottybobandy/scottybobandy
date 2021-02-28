@@ -1,18 +1,20 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import Media from "./Media";
 
 export default function Card(props) {
     const { experience } = props;
-    const { image, title, subtitle, description, url } = experience;
+    const { role, place, timeframe, url } = experience;
 
     return (
-        <a className="card-link" href={ url }>
+        <a className="card-container" href={ url }>
             <Row className="card">
-                <Col xs={{ span: 10, offset: 1 }} md={{ span: 8, offset: 2 }}>
-                    <Media image={ image } title={ title } subtitle={ subtitle }/>
-                    <p style={{ marginTop: "0.5em", marginBottom: "1em" }}>
-                        { description }
+                <Col xs={ 12 }>
+                    <h6 style={{ marginTop: "1em", marginBottom: "0", textAlign: "center" }}>{ role }</h6>
+                    <p style={{ marginBottom: "1em", textAlign: "center", fontSize: "14px" }}>
+                        { timeframe }
+                        <span className="card-link">
+                            { place }
+                        </span>
                     </p>
                 </Col>
             </Row>
