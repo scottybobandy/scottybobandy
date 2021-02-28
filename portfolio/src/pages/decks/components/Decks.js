@@ -16,10 +16,8 @@ export default function Decks() {
             <Tab.Container defaultActiveKey={ maelstrom.name }>
                 <Row>
                     <Col xs={ 2 } sm={ 2 } md={ 3 }>
-                        <Nav variant="pills" className="flex-column" style={{ paddingRight: "12px" }}>
-                            <Nav.Item>
-                                <Nav.Link href="/">Home</Nav.Link>
-                            </Nav.Item>
+                        <a href="/" style={{ paddingLeft: "17px", textDecoration: "none" }}>Home</a>
+                        <Nav variant="pills" className="flex-column" style={{ paddingRight: "12px", marginTop: "8px" }}>
                             <Nav.Item>
                                 <Nav.Link eventKey={ maelstrom.name }>{ maelstrom.name }</Nav.Link>
                             </Nav.Item>
