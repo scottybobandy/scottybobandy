@@ -6,7 +6,7 @@ export default function DeckHeader(props) {
 
     return (
         <Row>
-            <Col style={{ marginTop: "2em", marginBottom: "2em" }} xs={ 12 }>
+            <Col style={{ marginBottom: "2em" }} xs={ 12 }>
                 <h2 style={{ marginBottom: "6px", textAlign: "center" }}>
                     { name }
                 </h2>

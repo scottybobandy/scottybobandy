@@ -1,0 +1,15 @@
+.nav-pills .nav-link {
+    text-decoration: none;
+    border: 0.25px solid $surface;
+}
+
+.nav-pills .nav-link:hover {
+    color: black;
+    border: 0.25px solid $surface;
+}
+
+.nav-pills .nav-link.active {
+    color: black;
+    background-color: $highlight;
+    border: 0.25px solid $border;
+}

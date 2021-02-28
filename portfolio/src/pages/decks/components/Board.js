@@ -17,7 +17,7 @@ export default function Board(props) {
 
     return (
         <Col className="board" xs={ 12 } style={{ padding: "0" }}>
-            <h5 style={{ textAlign: "center" }}>{ name } ({cards.length})</h5>
+            <h6 style={{ textAlign: "center" }}>{ name } ({cards.length})</h6>
             {
                 cards.chunk(4).map((cards, key) => {
                     return <Cards key={ key } cards={ cards }/>

@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <Row>
             <Col xs={ 12 } style={{ padding: "0" }}>
-                <h2 style={{ marginTop: "2em", marginBottom: "12px" }}>
+                <h2 style={{ marginBottom: "12px" }}>
                     Scott Campbell
                 </h2>
                 <a href="https://www.linkedin.com/in/scottaustencampbell/">

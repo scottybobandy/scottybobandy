@@ -6,7 +6,7 @@ import Header from "./Header";
 
 export default function Home() {
     return (
-        <Container style={{ marginBottom: "3em" }}>
+        <Container style={{ marginTop: "4em", marginBottom: "3em" }}>
             <Row>
                 <Col xs={{ span: 10, offset: 1 }} sm={{ span: 8, offset: 2 }} md={{ span: 6, offset: 3 }}>
                     <Header/>
