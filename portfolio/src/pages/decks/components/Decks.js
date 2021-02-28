@@ -18,6 +18,9 @@ export default function Decks() {
                     <Col xs={ 2 } sm={ 2 } md={ 3 }>
                         <Nav variant="pills" className="flex-column" style={{ paddingRight: "12px" }}>
                             <Nav.Item>
+                                <Nav.Link href="/">Home</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
                                 <Nav.Link eventKey={ maelstrom.name }>{ maelstrom.name }</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
