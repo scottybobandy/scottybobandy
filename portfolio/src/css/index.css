@@ -7566,11 +7566,16 @@ a.text-dark:hover, a.text-dark:focus {
 
 .nav-pills .nav-link {
   text-decoration: none;
-  border: 0.25px solid whitesmoke; }
+  border: 0.25px solid whitesmoke;
+  -webkit-tap-highlight-color: transparent; }
 
 .nav-pills .nav-link:hover {
   color: #0909ff;
   border: 0.25px solid whitesmoke; }
+
+.nav-pills .nav-link:focus {
+  outline: none;
+  box-shadow: none; }
 
 .nav-pills .nav-link.active {
   color: black;
