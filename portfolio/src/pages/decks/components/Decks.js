@@ -38,7 +38,7 @@ export default function Decks() {
                             </Nav.Item>
                         </Nav>
                     </Col>
-                    <Col xs={ 10 } sm={ 8 } md={ 6 }>
+                    <Col xs={{ span: 10, offset: 1 }} md={{ span: 6, offset: 0 }}>
                         <Tab.Content>
                             <Tab.Pane eventKey={ maelstrom.name }>
                                 <Deck deck={ maelstrom }/>
