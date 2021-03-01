@@ -15,7 +15,7 @@ export default function Decks() {
         <Container style={{ marginTop: "4em", marginBottom: "3em" }}>
             <Tab.Container defaultActiveKey={ maelstrom.name }>
                 <Row>
-                    <Col xs={ 2 } sm={ 2 } md={ 3 }>
+                    <Col style={{ marginBottom: "3.5em" }} xs={{ span: 10, offset: 1 }} md={{ span: 3, offset: 0 }}>
                         <a href="/" style={{ paddingLeft: "17px" }}>Home</a>
                         <Nav variant="pills" className="flex-column" style={{ paddingRight: "12px", marginTop: "8px" }}>
                             <Nav.Item>
