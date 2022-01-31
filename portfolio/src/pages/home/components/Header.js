@@ -12,7 +12,7 @@ export default function Header() {
                 <a href="https://www.linkedin.com/in/scottaustencampbell/">
                     <Icon style={{ marginRight: "20px" }} name='linkedin-square' size='2x'/>
                 </a>
-                <a href="https://github.com/Campbell-Scott">
+                <a href="https://github.com/scottybobandy">
                     <Icon style={{ marginRight: "20px" }} name='github' size='2x'/>
                 </a>
                 <a href="https://twitter.com/scottybobandy">
